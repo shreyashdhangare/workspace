@@ -1,3 +1,10 @@
+#include<stdio.h>
+demo run across the clausets
+hahahahah
+heheheheh
+
+
+
 
 template<typename t>
 class BinaryTree{
