@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="stlye.css">
+	
+</head>
+<body>
+	<form>
+		<b>ENTER THE REQUIRED DETAILS CAREFULLY</b><br>
+		<hr>
+		First name:<input type="text" required name="firstname"><br>
+		<hr>
+		Last name:<input typr="text" required name="lastname"><br>
+		<hr>
+		Email:<input type="Email" required name="email"><br>
+		<hr>
+		PASSWORD:<input type="PASSWORD" min="5" name="PASSWORD"><br>
+		<hr>
+		DOB:<input type="date" required name="date"><br>
+		<hr>
+		GENDER<br>
+		<input type="radio" name="GENDER" value="MALE">MALE<br>
+		<input type="radio" name="GENDER" value="FEMALE">FEMALE<br>
+		<input type="radio" name="GENDER" value="OTHER">OTHER<br>
+		PETS YOU HAVE<br>
+		<input type="checkbox" name="cats">cats<br>
+		<input type="checkbox" name="dogs">dogs<br>
+		<input type="checkbox" name="panda">panda<br>
+
+
+		CARS YOU HAVE<br>
+		<select name="CARS">
+			<option value="AUDI" name="AUDI">AUDI</option>
+			<option value="TATA" name="TATA">TATA</option>
+			<option value="MARUTI" name="MARUTI">MARUTI</option>
+		</select>
+		
+
+		<input type="submit"> <!--value="register"-->
+		<input type="reset">
+	</form>
+</body>
+</html>
+
+<!--
+?firstname=fake
+&lastname=id 
+&email=fake%40ngcc 
+&PASSWORD=fcfc23
+&date=2019-01-17
+&GENDER=MALE
+&cats=on &dogs=on
+&CARS=TATA 
