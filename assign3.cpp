@@ -1,11 +1,4 @@
-#include<stdio.h>
-demo run across the clausets
-hahahahah
-heheheheh
-Lorem Ipsum	
-Shree@#₹123Shree@#₹123Shree@#₹123Shree@#₹123Shree@#₹123Shree@#₹123
-Shree@#₹123Shree@#₹123
-
+new change is here.................
 
 template<typename t>
 class BinaryTree{
